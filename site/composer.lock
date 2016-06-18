@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f16df06179cba8a5c3372baa99a2ea2",
+    "hash": "b69f118d94d30abe6e7baf4c57dd6ab8",
+    "content-hash": "16504f41c104153a038a94cb79f86ac3",
     "packages": [
         {
             "name": "composer/installers",
@@ -193,16 +194,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67"
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/8836fc53726466fea17137c2f2622d89de51cd67",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
                 "shasum": ""
             },
             "require": {
@@ -231,7 +232,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2015-12-31 12:34:29"
+            "time": "2016-05-08 17:14:32"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -292,16 +293,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.2.1",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e"
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/63f37b9395e8041cd4313129c08ece896d06ca8e",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
                 "shasum": ""
             },
             "require": {
@@ -313,7 +314,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -338,22 +339,96 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-04-15 10:48:49"
+            "time": "2016-06-14 14:14:52"
+        },
+        {
+            "name": "xpress-framework/core-xpress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xpress-framework/core-xpress.git",
+                "reference": "23727258abd5ee02ac20169d46aba366b19e5381"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xpress-framework/core-xpress/zipball/23727258abd5ee02ac20169d46aba366b19e5381",
+                "reference": "23727258abd5ee02ac20169d46aba366b19e5381",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Manuel Arias",
+                    "email": "trasgofurioso@gmail.com"
+                }
+            ],
+            "description": "WordPress plugin for creation web applications fast and with a standard process.",
+            "homepage": "http://xpress-framework.github.io/",
+            "keywords": [
+                "framework",
+                "wordpress",
+                "xpress"
+            ],
+            "support": {
+                "issues": "https://github.com/xpress-framework/core-xpress/issues",
+                "source": "https://github.com/xpress-framework/core-xpress/tree/master"
+            },
+            "time": "2016-06-18 20:41:42"
+        },
+        {
+            "name": "xpress-framework/sample-xpress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xpress-framework/sample-xpress.git",
+                "reference": "7acd5bba0a59c618aa0e0731f410dce8e5c6fe4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xpress-framework/sample-xpress/zipball/7acd5bba0a59c618aa0e0731f410dce8e5c6fe4f",
+                "reference": "7acd5bba0a59c618aa0e0731f410dce8e5c6fe4f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "EULA"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Manuel Arias",
+                    "email": "trasgofurioso@gmail.com"
+                }
+            ],
+            "description": "WordPress plugin for sampling the implementation of Core-Xpress Framework",
+            "homepage": "http://xpress-framework.github.io/",
+            "keywords": [
+                "framework",
+                "wordpress",
+                "xpress"
+            ],
+            "support": {
+                "issues": "https://github.com/xpress-framework/sample-xpress/issues",
+                "source": "https://github.com/xpress-framework/sample-xpress/tree/master"
+            },
+            "time": "2016-06-18 20:50:02"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b"
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1bcdf03b068a530ac1962ce671dead356eeba43b",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
                 "shasum": ""
             },
             "require": {
@@ -418,12 +493,15 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-04-03 22:58:34"
+            "time": "2016-05-30 22:24:32"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "xpress-framework/core-xpress": 20,
+        "xpress-framework/sample-xpress": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
