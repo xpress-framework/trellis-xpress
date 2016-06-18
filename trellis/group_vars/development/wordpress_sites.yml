@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  sandbox.com:
+  xpress.com:
     site_hosts:
-      - sandbox.dev
+      - xpress.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@sandbox.dev
+    admin_email: admin@xpress.dev
     multisite:
       enabled: false
     ssl:
