@@ -38,17 +38,27 @@
     {
       "type": "vcs",
       "url": "https://github.com/xpress-framework/sample-xpress"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/xpress-framework/xpress-mvc"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/xpress-framework/xpress-mvc-example"
     }
   ],
   "require": {
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.5.2",
+    "johnpbloch/wordpress": "4.9.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "xpress-framework/core-xpress": "dev-master",
-    "xpress-framework/sample-xpress": "dev-master"
+    "xpress-framework/sample-xpress": "dev-master",
+    "xpress-framework/xpress-mvc": "dev-master",
+    "xpress-framework/xpress-mvc-example": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
